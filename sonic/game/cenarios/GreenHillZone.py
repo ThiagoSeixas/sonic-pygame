@@ -30,11 +30,13 @@ class GreenHillZone:
     def atualizar_eventos(self, evento):
         if evento.type == pygame.KEYDOWN:
             if evento.key == pygame.K_RIGHT:
-                self.sonic.velocidade_x = 10
+                self.sonic.velocidade_x = 15
             if evento.key == pygame.K_LEFT:
-                self.sonic.velocidade_x = -10
+                self.sonic.velocidade_x = -15
             if evento.key == pygame.K_UP:
-                self.sonic.velocidade_y = -10
+                self.sonic.velocidade_y = -15
+            #if evento.key == pygame.K_DOWN:
+            #    self.sonic.velocidade_y = 10
         if evento.type == pygame.KEYUP:
                 self.sonic.stop()
                 

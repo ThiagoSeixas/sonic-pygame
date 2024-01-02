@@ -37,6 +37,9 @@ class MarbleZone:
             self.sonic.stop()
 
     def atualizar_cenario(self):
+        # if self.sonic.rect[0] < self.tela.get_rect()[2] :
+        #    pygame.mixer.music.fadeout(500)
+        #    self.rodando = False
         self.renderizar_fundo()
         self.grupo_sprites.update()
         self.grupo_sprites.draw(self.tela)

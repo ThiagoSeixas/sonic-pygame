@@ -14,7 +14,7 @@ config.read("sonic/config.ini")
 JANELA = [int(config['JANELA']['LARGURA']), int(config['JANELA']['ALTURA'])]
 
 tela = pygame.display.set_mode(JANELA)
-pygame.display.set_caption("Sonic Pygame")
+pygame.display.set_caption("Sonic Pygame - Matheus Version")
 clock = pygame.time.Clock()
 
 fase_object = [
