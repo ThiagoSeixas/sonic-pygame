@@ -2,9 +2,9 @@
 
 import pygame, configparser, pathlib
 
-from .game.cenarios.GreenHillZone import GreenHillZone
-from .game.cenarios.MarbleZone import MarbleZone
-from .game.telas.TelaDeInicio import TelaDeInicio
+from game.cenarios.GreenHillZone import GreenHillZone
+from game.cenarios.MarbleZone import MarbleZone
+from game.telas.TelaDeInicio import TelaDeInicio
 
 pygame.mixer.pre_init(44100, 16, 2, 1024)
 pygame.init()

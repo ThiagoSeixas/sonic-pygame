@@ -50,4 +50,5 @@ class SonicSprite(Sprite):
         elif self.velocidade_x < 0:
             self.index = 3
         self.velocidade_x = 0
+        self.velocidade_y = 0
         self.update()

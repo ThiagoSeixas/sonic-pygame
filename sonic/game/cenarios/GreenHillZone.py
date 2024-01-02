@@ -33,6 +33,8 @@ class GreenHillZone:
                 self.sonic.velocidade_x = 10
             if evento.key == pygame.K_LEFT:
                 self.sonic.velocidade_x = -10
+            if evento.key == pygame.K_UP:
+                self.sonic.velocidade_y = -10
         if evento.type == pygame.KEYUP:
                 self.sonic.stop()
                 
